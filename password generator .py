@@ -21,6 +21,5 @@ def password_generator():
     return password
 
 
-print("Welcome to the password generator")
 created_password = password_generator()
-print(f'Your password id {created_password}')
+print(f'Your password is {created_password}')
